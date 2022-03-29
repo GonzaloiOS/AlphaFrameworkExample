@@ -1,0 +1,14 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AlphaFrameworkExample
+@_exported import AlphaFrameworkExample
+import Swift
+import SwiftUI
+import _Concurrency
+public struct MyAnimationSwiftUIView : SwiftUI.View {
+  public init(name: Swift.String)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s21AlphaFrameworkExample22MyAnimationSwiftUIViewV4bodyQrvp", 0) __
+}
