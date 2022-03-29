@@ -1,2 +1,2 @@
-# AlphaFrameworkExample-
+# AlphaFrameworkExample
 Testing our alpha framework
