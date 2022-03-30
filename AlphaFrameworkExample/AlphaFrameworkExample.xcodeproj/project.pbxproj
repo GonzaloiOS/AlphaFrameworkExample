@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C5F1D60D27F3B30500A610E4 /* AlphaFrameworkExample.docc in Sources */ = {isa = PBXBuildFile; fileRef = C5F1D60C27F3B30500A610E4 /* AlphaFrameworkExample.docc */; };
 		C5F1D61327F3B30500A610E4 /* AlphaFrameworkExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F1D60827F3B30500A610E4 /* AlphaFrameworkExample.framework */; };
-		C5F1D61827F3B30500A610E4 /* AlphaFrameworkExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1D61727F3B30500A610E4 /* AlphaFrameworkExampleTests.swift */; };
 		C5F1D61927F3B30500A610E4 /* AlphaFrameworkExample.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F1D60B27F3B30500A610E4 /* AlphaFrameworkExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5F1D62327F3B38000A610E4 /* MyAnimationSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1D62227F3B38000A610E4 /* MyAnimationSwiftUIView.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		C5F1D60B27F3B30500A610E4 /* AlphaFrameworkExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlphaFrameworkExample.h; sourceTree = "<group>"; };
 		C5F1D60C27F3B30500A610E4 /* AlphaFrameworkExample.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AlphaFrameworkExample.docc; sourceTree = "<group>"; };
 		C5F1D61227F3B30500A610E4 /* AlphaFrameworkExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaFrameworkExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5F1D61727F3B30500A610E4 /* AlphaFrameworkExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaFrameworkExampleTests.swift; sourceTree = "<group>"; };
 		C5F1D62227F3B38000A610E4 /* MyAnimationSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnimationSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				C5F1D60A27F3B30500A610E4 /* AlphaFrameworkExample */,
-				C5F1D61627F3B30500A610E4 /* AlphaFrameworkExampleTests */,
 				C5F1D60927F3B30500A610E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,14 +75,6 @@
 				C5F1D62227F3B38000A610E4 /* MyAnimationSwiftUIView.swift */,
 			);
 			path = AlphaFrameworkExample;
-			sourceTree = "<group>";
-		};
-		C5F1D61627F3B30500A610E4 /* AlphaFrameworkExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				C5F1D61727F3B30500A610E4 /* AlphaFrameworkExampleTests.swift */,
-			);
-			path = AlphaFrameworkExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F1D61827F3B30500A610E4 /* AlphaFrameworkExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
